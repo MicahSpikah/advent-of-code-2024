@@ -6,6 +6,6 @@
 #include <numeric>
 #include <ranges>
 
-advent_t advent( std::vector< std::string > const& input )
+advent_t advent(std::vector<std::string> const& input)
 {
 }

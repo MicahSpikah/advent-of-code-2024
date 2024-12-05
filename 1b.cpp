@@ -1,15 +1,15 @@
 #include "parse_input.h"
 
-#include <charconv>
 #include <algorithm>
 #include <array>
+#include <charconv>
 #include <map>
 #include <numeric>
 #include <ranges>
 
-advent_t advent( std::vector< std::string > const& input )
+advent_t advent(std::vector<std::string> const& input)
 {
-    std::vector< int > col1, col2;
+    std::vector<int> col1, col2;
 
     for(auto const& line : input)
     {
