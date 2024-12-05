@@ -1,7 +1,3 @@
-I compiled all of these in clang using c++23
-
-e.g. Compile day 3 part 1 by running `clang++ --std=c++23 3a.cpp`
-
-Then run by passing the input file as a command line parameter: `./a.out 3.txt`
+I wrote a CMakeLists.txt this year so I could debug using XCode. It assumes that you're using XCode and by default, the input file is named in.txt in the same directory as the source
 
 To get an input to use with the day, go to www.adventofcode.com
